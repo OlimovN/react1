@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1920px;
+  height: 100%;
+  padding: 15px 80px ;
+}
+
+.header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 140px;
+  cursor: pointer;
+}
+
+.input input {
+  width: 530px;
+  height: 48px;
+  font-size: 16px;
+  padding-left: 20px;
+  background-color: #F0F1F2;
+  border-radius: 50px;
+  border: 1px solid #F0F1F2;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.translate img {
+  width: 167px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.location img {
+  width: 258px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.select {
+  display: flex;
+  margin-top: 25px;
+}
+
+.param {
+  display: flex;
+  margin: 10px;
+}
+
+.param p {
+  color: #9A9EA6;
+  font-size: 14px;
+  margin-right: 60px;
+  cursor: pointer;
+}
+
+.param p:last-child {
+  margin-right: 0;
+}
+
+.param p:hover {
+  color: #000;
+  font-size: 14px;
+  text-decoration: overline;
+}
+
+.btn img {
+  margin-left: 400px;
+}
+
+.jet {
+  margin-top: 50px;
+  display: flex;
+}
+
+.text h3 {
+  border: 1px solid #E5EDFF;
+  background-color: #E5EDFF;
+  color: #4F7DF3;
+  font-size: 14px;
+  width: 280px;
+  height: 37px;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.text h1 {
+  color: #181E4B;
+  font-size: 76px;
+  margin-top: 20px;
+}
+
+.text span {
+  color: #4475F2;
+}
+
+.text p {
+  color: #5E6282;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.buttons button {
+  width: 198px;
+  height: 60px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4475F2;
+  border: 1px solid #4475F2;
+  margin-right: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.buttons button:last-child {
+  width: 198px;
+  height: 60px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4475F2;
+  border: 1px solid #4475F2;
+  margin-right: 0;
+}
+
+.buttons button:hover {
+  width: 198px;
+  height: 60px;
+  font-size: 16px;
+  color: #5E6282;
+  background-color: #fff;
+  border: 1px solid #4475F2;
+  margin-right: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.img {
+  margin-left: 70px;
+}
+
+.spon {
+  display: flex;
+}
+
+.spon img {
+  margin-top: 50px;
+  margin-right: 60px;
+}
+
+.spon img:last-child {
+  margin-top: 50px;
+  margin-right: 0;
+}
+
+.fav {
+  margin-top: 60px;
+}
+
+.fav p {
+  font-size: 18px;
+  color: #4475F2;
+}
+
+.tir {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tir h1 {
+  font-size: 48px;
+  color: #14183E;
+  margin-top: 5px;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  margin-right: 80px;
+  margin-top: 60px;
+  border: 1px solid #5E6282;
+  border-radius: 10px;
+  background-color: #dcdde1;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card p,span {
+  margin: 10px;
+}
+
+.card span {
+  font-size: 18px;
+}
+
+.tempat {
+  display: flex;
+  margin-top: 120px;
+}
+
+.reser {
+  color: #4475F2;
+  font-size: 18px;
+}
+
+.textTemp h1 {
+  color: #14183E;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.gak {
+  display: flex;
+  margin-top: 20px;
+}
+
+.gak img {
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.about {
+  margin-left: 10px;
+}
+
+.about h1 {
+  color: #5E6282;
+  font-size: 18px;
+}
+
+.about p {
+  color: #5E6282;
+  font-size: 16px;
+}
+
+.imgTemp {
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.eart {
+  margin-top: 50px;
+}
+
+.wisata {
+  text-align: center;
+  color: #4737FF;
+  font-size: 18px;
+}
+
+.cari {
+  font-size: bold;
+  color: #151D21;
+  font-size: 56px;
+  text-align: center;
+}
+
+.earth h3 {
+  color: #18191F;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.earth img {
+  margin-top: 10px;
+}
+
+.geolog {
+  display: flex;
+  margin-left: 90px;
+  margin-right: 90px;
+  gap: 90px;
+}
+
+.geo {
+  display: flex;
+}
+
+.geo img {
+  width: 55px;
+  height: 55px;
+}
+
+.rok {
+  margin-left: 10px;
+}
+
+.rok h1 {
+  color: #18214D;
+  font-size: 22px;
+}
+
+.rok p {
+  color: #3E4462;
+  font-size: #3E4462;
+}
